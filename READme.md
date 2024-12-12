@@ -9,7 +9,6 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 - Apollo Client for GraphQL state management
 - Tailwind CSS for styling
 - Component-based architecture with React
-- Dark mode support
 - Responsive design
 
 ### Backend (GraphQL API)
@@ -29,7 +28,6 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 
 ### 2. Kanban Board
 - Drag-and-drop interface
-- Real-time status updates
 - Filtering and search capabilities
 - Responsive grid layout
 
@@ -38,7 +36,6 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 - Category distribution
 - Trend analysis
 - Interactive charts
-- Real-time updates
 
 ### 4. Barcode Scanner
 - Real-time scanning
@@ -48,7 +45,6 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 
 ### 5. Category Management
 - CRUD operations
-- Real-time updates
 - Category statistics
 - Bulk operations
 
@@ -60,9 +56,9 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 - npm or yarn
 
 ### Frontend Setup
--cd client
--npm run dev
--npm run dev
+- cd client
+- npm run dev
+- npm run dev
 
 ### Backend Setup
 - cd server
@@ -137,7 +133,7 @@ NEXT_PUBLIC_API_URL=http://localhost:4000/graphql
 Create `.env` in server directory:
 ```env
 PORT=4000
-MONGODB_URI=mongodb://localhost:27017/inventory
+MONGODB_URI=your_mongo_uri
 JWT_SECRET=your_jwt_secret
 ```
 
@@ -151,16 +147,6 @@ Backend:
 - `npm run dev`: Development server
 - `npm run build`: Compile TypeScript
 - `npm start`: Production server
-
-## Contributing
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Open pull request
-
-## License
-MIT License
 
 ## Authors
 [Md Sadee Rohan]
