@@ -2,6 +2,15 @@
 
 A modern inventory management system built with Next.js, Apollo GraphQL, and TypeScript. Features real-time updates, drag-and-drop functionality, and barcode scanning capabilities.
 
+# Inventory Management System
+
+A modern inventory management system built with Next.js, Apollo GraphQL, and TypeScript. Features real-time updates, drag-and-drop functionality, and barcode scanning capabilities.
+
+## Links
+
+- **App Link:** [Inventory Management App](https://aci-inventory-frontend.vercel.app/)
+- **Backend API:** [Inventory Management API](https://aci-inventory-api.onrender.com/graphql)
+
 ## Architecture
 
 ### Frontend (Next.js App Router)
