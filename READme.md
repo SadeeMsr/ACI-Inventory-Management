@@ -136,7 +136,7 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 ### Environment Variables
 Create `.env.local` in client directory:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:4000/graphql
+NEXT_PUBLIC_GRAPHQL_URL=http://localhost:4000/graphql
 ```
 
 Create `.env` in server directory:
