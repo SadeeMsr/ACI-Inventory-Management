@@ -60,6 +60,24 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 - MongoDB
 - npm or yarn
 
+## Development
+
+### Environment Variables
+Create `.env.local` in client directory:
+```env
+NEXT_PUBLIC_GRAPHQL_URL=http://localhost:4000/graphql
+```
+
+Create `.env` in server directory:
+```env
+PORT=4000
+MONGODB_URI=mongodb+srv://rohandevwhiz:Dufr6ZLpfgDqww4x@cluster0.5rmoe.mongodb.net/inventory
+NODE_ENV=development 
+JWT_SECRET=your_jwt_secret
+```
+(Mongo URI temporarily given for the assessment)
+
+
 ### Frontend Setup
 ```
 cd client
@@ -131,40 +149,12 @@ npm run dev
 - `CREATE_PRODUCT`: Add new product
 - `DELETE_PRODUCT`: Remove product
 
-## Development
-
-### Environment Variables
-Create `.env.local` in client directory:
-```env
-NEXT_PUBLIC_GRAPHQL_URL=http://localhost:4000/graphql
-```
-
-Create `.env` in server directory:
-```env
-PORT=4000
-MONGODB_URI=mongodb+srv://rohandevwhiz:Dufr6ZLpfgDqww4x@cluster0.5rmoe.mongodb.net/inventory
-NODE_ENV=development 
-JWT_SECRET=your_jwt_secret
-```
-(Mongo URI temporarily given for the assessment)
-
 ### Scripts
 Frontend:
 - `npm run dev`: Development server
 - `npm run build`: Production build
 - `npm run lint`: Run ESLint
-Greetings!
 
-Thank you for sharing the assessment task with me. Please find my submission linked below:
-
-GitHub Repository with installation guides in READme.md file: https://github.com/SadeeMsr/ACI-Inventory-Management
-
-I have ensured the answers are well-documented and have added relevant insights as part of my analysis. Should you have any further questions or require additional clarifications, please feel free to reach out.
-
-Looking forward to your feedback.
-
-Best regards,
-Md. Sadee Rohan
 Backend:
 - `npm run dev`: Development server
 - `npm run build`: Compile TypeScript
