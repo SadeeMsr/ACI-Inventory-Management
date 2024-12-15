@@ -61,14 +61,18 @@ A modern inventory management system built with Next.js, Apollo GraphQL, and Typ
 - npm or yarn
 
 ### Frontend Setup
-- cd client
-- npm run dev
-- npm run dev
+```
+cd client
+npm install
+npm run dev
+```
 
 ### Backend Setup
-- cd server
-- npm install
-- npm run dev
+```
+cd server
+npm install
+npm run dev
+```
 
 ## Key Packages and Their Purpose
 
